@@ -65,13 +65,13 @@ public class CalculatorTest {
 	@Test
 	public final void testDivide() {
 		//fail("Not yet implemented");
-		int a = 25;
+		int a = 30;
 		int b = 5;
 		
 		Calculator cal = new Calculator();
 		int actual = cal.divide(a, b);
 		
-		int expected = 5;
+		int expected = 6;
 		assertEquals(expected, actual);	
 
 	}
