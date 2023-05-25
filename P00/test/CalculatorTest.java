@@ -52,27 +52,27 @@ public class CalculatorTest {
 	@Test
 	public final void testMultiply() {
 		//fail("Not yet implemented");
-		int a = 91;
-		int b = 15;
+		int a = 56;
+		int b = 12;
 		
 		Calculator cal = new Calculator();
 		int actual = cal.multiply(a, b);
 		
-		int expected = 1365;
+		int expected = 672;
 		assertEquals(actual, expected);	
 		
 	}
 	@Test
 	public final void testDivide() {
 		//fail("Not yet implemented");
-		int a = 675;
-		int b = 15;
+		int a = 255;
+		int b = 17;
 		
 		Calculator cal = new Calculator();
-		int actual = cal.multiply(a, b);
+		int actual = cal.divide(a, b);
 		
-		int expected = 45;
-		assertEquals(actual, expected);	
+		int expected = 15;
+		assertEquals(expected, actual);	
 
 	}
 }
